@@ -1,1 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
+body{
+    background-image: url(images/dynamic-style.jpg);
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    background: lightcoral;
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+h1{
+   color: white;
+    width: 50%;
+    display: inline-block;
+}
+
+nav{
+    width: 45%;
+    display: inline-block;
+    text-align: right;
+}
+
+header nav a{
+color: lightcoral;
+margin: 0 5px;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-family: sans-serif;
+background: white;
+padding: 10px 15px;
+border-radius: 5px;
+}
+
+main{
+    width: 60%;
+    display: inline-block;
+    background-color: white;
+    padding: 15px;
+}
+
+aside{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+
+p{
+    margin: 15px 0;
+}
+
+.headshot{
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+footer{
+    background: lightcoral;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content{
+  margin: 20px auto;  
+}
